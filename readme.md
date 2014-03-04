@@ -1,5 +1,9 @@
 # Rackspace UI Software Developer AngularJS Take Home Test
 
+_Taken from [TodoMVC](http://todomvc.com/)_
+
+## [Demo](http://todomvc.com/architecture-examples/angularjs-perf/#/)
+
 ## Instructions
 
 Clone this repo
