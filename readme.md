@@ -15,9 +15,9 @@ _Taken from [TodoMVC](http://todomvc.com/)_
 * Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API from some sort of persistent storage, ie. [Firebase](https://www.firebase.com/) or [MongoHQ](http://support.mongohq.com/mongohq-api/introduction.html).
 
 * Add the ability to create due dates for the todo task.
-* **BONUS** - Allow sorting by due dates
+* **BONUS** - Allow sorting by due dates.
 
-## Helpful Resources:
+## Helpful Resources
 
 ### Learning AngularJS
 The [AngularJS website](http://angularjs.org) is a great resource for getting started.
