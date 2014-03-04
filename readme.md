@@ -6,11 +6,7 @@ _Taken from [TodoMVC](http://todomvc.com/)_
 
 ## Instructions
 
-* Clone this repo
-
-```
- $ git clone git@github.com:rackerlabs/todo-angular-test.git
-```   
+* [Fork](https://help.github.com/articles/fork-a-repo) and clone this repo.
 
 * Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API from some sort of persistent storage, ie. [Firebase](https://www.firebase.com/), [MongoHQ](http://support.mongohq.com/mongohq-api/introduction.html), [Parse](https://parse.com/docs/js_guide#javascript_guide), etc.
 
