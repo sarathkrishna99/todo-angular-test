@@ -6,9 +6,11 @@ Clone this repo
 
     $ git clone git@github.com:rackerlabs/todo-angular-test.git
 
-Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API
+Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API.
+Update the corresponding unit test.
 
-
+Create some sort of server side API tied to a database of your choice for the data storage and retrieval.
+You can use any webserver you like, ie node.js / express.js or Sinatra, etc.
 
 ## Learning AngularJS
 The [AngularJS website](http://angularjs.org) is a great resource for getting started.
