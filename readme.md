@@ -12,7 +12,7 @@ _Taken from [TodoMVC](http://todomvc.com/)_
  $ git clone git@github.com:rackerlabs/todo-angular-test.git
 ```   
 
-* Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API from some sort of persistant storage, ie. [Firebase](https://www.firebase.com/) or [MongoHQ](http://support.mongohq.com/mongohq-api/introduction.html).
+* Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API from some sort of persistent storage, ie. [Firebase](https://www.firebase.com/) or [MongoHQ](http://support.mongohq.com/mongohq-api/introduction.html).
 
 * Add the ability to create due dates for the todo task.
 * **BONUS** - Allow sorting by due dates
