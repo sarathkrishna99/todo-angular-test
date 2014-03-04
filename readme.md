@@ -1,8 +1,14 @@
-# AngularJS (Performance Optimized) TodoMVC Example
+# Rackspace UI Software Developer AngularJS Take Home Test
 
-> HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+_[AngularJS - angularjs.org](http://angularjs.org)_
 
-> _[AngularJS - angularjs.org](http://angularjs.org)_
+## Instructions
+
+Clone this repo
+
+    $ git clone git@github.com:rackerlabs/todo-angular-test.git
+
+Replace service using localStorage
 
 
 ## Learning AngularJS
@@ -32,11 +38,3 @@ Get help from other AngularJS users:
 * [angularjs on Stack Overflow](http://stackoverflow.com/questions/tagged/angularjs)
 * [AngularJS on Twitter](https://twitter.com/angularjs)
 * [AngularjS on Google +](https://plus.google.com/+AngularJS/posts)
-
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
-
-
-## Implementation
-The normal AngularJS TodoMVC implementation performs deep watching of the todos array object. This means that it keeps an in-memory copy of the complete array that is used for dirty checking in order to detect model mutations. For smaller applications such as TodoMVC, this is completely fine as one trades off a little memory and performance for the sake of simplicity.
-
-In larger more complex applications however, where one might be working with 100s or 1000s of large objects one definitely should avoid using this approach. This implementation of the AngularJS app demonstrates the correct way to approach this problem when working in larger apps.
