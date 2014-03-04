@@ -6,17 +6,18 @@ _Taken from [TodoMVC](http://todomvc.com/)_
 
 ## Instructions
 
-Clone this repo
+* Clone this repo
 
     $ git clone git@github.com:rackerlabs/todo-angular-test.git
 
-Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API.
-Update the corresponding unit test.
+* Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API from some sort of persistant storage, ie. [Firebase](https://www.firebase.com/) or [MongoHQ](http://support.mongohq.com/mongohq-api/introduction.html).
 
-Create some sort of server side API tied to a database of your choice for the data storage and retrieval.
-You can use any webserver you like, ie node.js / express.js or Sinatra, etc.
+* Add the ability to create due dates for the todo task.
+* **BONUS** Allow sorting by due dates
 
-## Learning AngularJS
+## Helpful Resources:
+
+### Learning AngularJS
 The [AngularJS website](http://angularjs.org) is a great resource for getting started.
 
 Here are some links you may find helpful:
