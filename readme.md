@@ -1,14 +1,13 @@
 # Rackspace UI Software Developer AngularJS Take Home Test
 
-_[AngularJS - angularjs.org](http://angularjs.org)_
-
 ## Instructions
 
 Clone this repo
 
     $ git clone git@github.com:rackerlabs/todo-angular-test.git
 
-Replace service using localStorage
+Replace service using localStorage ``` js/services/toDoStorage.js ``` with one that consumes an API
+
 
 
 ## Learning AngularJS
