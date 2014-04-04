@@ -8,8 +8,16 @@ todomvc.factory('todoStorage', function () {
 	var STORAGE_ID = 'todos-angularjs-perf';
 
 	return {
-		get: function () {
-			return JSON.parse(localStorage.getItem(STORAGE_ID) || '[]');
+		 get: function () {
+			var app = angular.module('plunker', ['firebase']);
+
+			app.controller('MainCtrl', function($scope, angularFire) {
+			  $scope.name = 'World';
+			
+			  $scope.images = angularFireCollection('https://datauri.firebaseio-demo.com/images/');
+			
+			});
+			
 		},
 
 		put: function (todos) {
